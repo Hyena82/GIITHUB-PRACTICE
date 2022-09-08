@@ -6,9 +6,11 @@ DOCUMENT
 
 UNDO commit local repository
   - git reset --soft HEAD~[number]
-    destroy any change from local repo
+    Destroy any change from local repo
   - git reset --hard HEAD~[number]
-    keep your file and stage all change back
+    Keep your file and stage all change back
+  - git reset
+    Unstage all file
 
 UNDO commit push to remote
   - git revert HEAD
